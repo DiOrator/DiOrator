@@ -1,0 +1,38 @@
+body {
+  display: none;
+  background-color: rgb(164, 145, 145);
+}
+.hidden {
+  display: none;
+}
+#loginArea {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(164, 145, 145);
+  padding: 20px;
+  border-radius: 5px;
+  border: 2.5px solid black;
+  max-height: 60vh;
+  width: 41vh;
+}
+#almostArea {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#secondAlmostArea {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#thirdAlmostArea {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
